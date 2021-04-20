@@ -148,7 +148,7 @@ resource "vcd_vapp_vm" "vm_1" {
   vapp_name     = vcd_vapp.vmware_tutorial_vapp.name
   name          = "vm-rhel-01"
   catalog_name  = "Public Catalog"
-  template_name = "RedHat-8-Template-Official"
+  template_name = "RedHat-7-Template-Official"
   memory        = 16384
   cpus          = 4
 
